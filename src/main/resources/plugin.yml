@@ -1,0 +1,19 @@
+name: EconomySystem
+version: '${project.version}'
+main: plugin.core.Main
+api-version: 1.19
+commands:
+  balance:
+    description: Con este comando ves tu saldo actual
+    usage: /<command>
+    aliases:
+      - money
+      - dinero
+      - saldo
+      - bal
+      - wallet
+  pay:
+    description: Con este comando puedes pagar a otro jugador
+    usage: /<command>
+    aliases:
+      - pagar
